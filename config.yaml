@@ -1,0 +1,15 @@
+batch_size: 64
+length: 256
+epochs: 400
+steps_per_epoch: 128
+
+print_frequency: 10
+save_frequency: 10
+
+samples_dir: './samples'
+weights_dir: './checkpoints'
+
+learning_rate: 0.001
+checkpoints: True
+
+noDecom: False

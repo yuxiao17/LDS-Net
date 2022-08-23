@@ -1,5 +1,5 @@
 # LDS-Net
-environment:CUDA 11.0,PyTorch 1.10
+The environment setting is in the environment.yaml.  
 
 
 training dataset: https://pan.baidu.com/s/1NRX8s1qM6Gad8INjK4Lqxg 提取码: uhfw 

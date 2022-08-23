@@ -19,3 +19,6 @@ The checkpoints was saved in https://pan.baidu.com/s/1Oy2f5b39528EFEH2de4TbA 提
 
 
 Before your test,please download the checkpoints and put the checkpoints in the file folder "checkpoints_nt".
+
+
+If you want to retrain, you can change the training parameter settings by config.yaml

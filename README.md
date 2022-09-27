@@ -1,5 +1,5 @@
 # LDS-Net
-**environment setting**
+**Environment setting**
 
 The environment setting is in the environment.yaml.  
 

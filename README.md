@@ -22,3 +22,21 @@ Before your test,please download the checkpoints and put the checkpoints in the 
 
 
 If you want to retrain, you can change the training parameter settings by config.yaml
+
+**Bibtex**
+
+@ARTICLE{10.3389/fmars.2022.921492,
+  
+AUTHOR={Xie, Yaofeng and Yu, Zhibin and Yu, Xiao and Zheng, Bing},   
+  
+TITLE={Lighting the darkness in the sea: A deep learning model for underwater image enhancement},      
+ 
+JOURNAL={Frontiers in Marine Science},      
+ 
+VOLUME={9},           
+ 
+YEAR={2022},      
+   
+URL={https://www.frontiersin.org/articles/10.3389/fmars.2022.921492},       
+ 
+DOI={10.3389/fmars.2022.921492}

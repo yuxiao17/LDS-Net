@@ -248,7 +248,7 @@ class RestoreNet_MSIA(nn.Module):
 class RestoreNet_Unet(nn.Module):
     def __init__(self, filters=32, activation='lrelu'):
         super().__init__()
-        self.conv1_1 = Conv2R(3, filters)
+        self.conv1_1 = Conv2R(4, filters)
         self.conv1_2 = Conv2R(filters, filters)
         self.pool1 = MaxPooling2D()
         
@@ -292,10 +292,10 @@ class RestoreNet_Unet(nn.Module):
         self.bn=nn.BatchNorm2d(3)
         self.out = nn.Sigmoid()
     
-    # def forward(self, R, I):
-    def forward(self, L):
-        # x = torch.cat([R, I], dim=1)
-        x=L
+    def forward(self, R, I):
+    #def forward(self, L):
+        x = torch.cat([R, I], dim=1)
+        #x=L
         conv1 = self.conv1_1(x)
         conv1 = self.conv1_2(conv1)
         pool1 = self.pool1(conv1)

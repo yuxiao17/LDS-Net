@@ -38,7 +38,8 @@ class KDS_Player(BaseTrainer):
             start_time = time.time()
             L_low = L_low_tensor.to(self.device)
             R_low, I_low = self.model.decom_net(L_low)
-            output = self.model.restore_net(L_low)
+           #output = self.model.restore_net(L_low)
+            output = self.model.restore_net(R_low,I_low)
             end_time = time.time()
             cost = end_time - start_time
             T.append(cost)
